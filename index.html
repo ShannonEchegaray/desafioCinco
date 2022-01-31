@@ -16,15 +16,38 @@
     <title>Deltarune-Tributo - Home</title>
 </head>
 <body>
-    <header class="container-fluid header" id="home">
+    <header class="container-fluid header sticky-menu" id="home">
         <!-- Logo -->
-        <div class="row">
-            <h1 class="col-12 text-center">
+        <div class="row pt-2 pb-2 align-items-center">
+            <div class="col-1 d-lg-none min-wi">
+                <a href="#offcanvas" data-bs-toggle="offcanvas">
+                    <img src="img/Hamburger.png" alt="Icono de menu" class="img-fluid">
+                </a>
+            </div>
+            <!-- offcanvas, menu responsive -->
+
+            <div class="offcanvas offcanvas-start menu-offcanvas" tabindex="-1" id="offcanvas">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu de navegacion</h5>
+                  <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <ul class="p-0 m-0">
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="pages/acerca-de.html">Acerca de</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="pages/personajes.html">Personajes</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="pages/soundtrack.html">Soundtrack</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="pages/autor.html">Autor</a></li>
+                    </ul>  
+                </div>
+            </div>
+              <!-- Fin de Offcanvas -->
+
+            <h1 class="col col-lg-12 text-center m-0">
                 <a href="#" class="anchor-header-title">DELTARUNE</a>
             </h1>
         </div>
         <!--Menu-->
-        <nav class="p-1">
+        <nav class="p-1 d-none d-lg-block">
             <ul class="row text-center d-flex justify-content-center">
                 <li class="col-3 d-inline-block">
                     <a href="pages/acerca-de.html" class="anchor-header p-2 border rounded">ACERCA DE</a>

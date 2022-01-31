@@ -33,8 +33,41 @@ body a{
     text-shadow: 0 0 4px #fff;
 }
 
+/* Color de Menu navegacion Responsive */
+
+.menu-offcanvas{
+    background-color: #0A45C3;
+}
+
+.anchor-offcanvas{
+    text-decoration: none;
+}
+
+.anchor-offcanvas:hover{
+    background-color: #062B79;
+    color: #eee;
+}
+
+
 /* color de contenedores */
 
 .main-color{
     background-color: #7491F6;
+}
+
+/* Ancho minimo para el nav bar ico */
+
+.min-wi{
+    min-width: 60px;
+}
+
+/* Media queries */
+
+/* Media querie para dejar el menu pegado arriba cuando ya este el icono de hamburguesa */
+@media screen and (max-width: 992px){
+
+    .sticky-menu{
+        position: sticky;
+        top: 0;
+    }
 }
