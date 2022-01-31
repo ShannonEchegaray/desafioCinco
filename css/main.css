@@ -1,0 +1,33 @@
+/* background */
+
+body{
+    background-color: #291129;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+body a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    background-color: #0A45C3;
+}
+
+.anchor-header:hover{
+    background-color: #062B79;
+    color: #eee;
+}
+
+.anchor-header-title:hover{
+    color: #fff;
+    text-shadow: 0 0 4px #fff;
+}
+
+/* color de contenedores */
+
+.main-color{
+    background-color: #7491F6;
+}
