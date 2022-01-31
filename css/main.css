@@ -1,0 +1,84 @@
+/* Propiedades generales */
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #070707;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padd{
+    padding: 15px;
+}
+
+/* Header */
+
+.colorHeader{
+    background-color: #ec17ff56;
+    color: #8a58ca;
+}
+
+.imgNavbar{
+    width: 40px;
+    height: 30px;
+}
+
+.colorMenu{
+    background-color: #361279;
+}
+
+.hideOnDesktop{
+    display: none;
+}
+
+.nonList{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.anchorHeader{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* Fin header */
+
+.colorMain{
+    background-color: #4d2b7949;
+}
+
+.anchorMain{
+    color: #fff;
+}
+
+.anchorMain:hover{
+    color: #fff;
+    text-shadow:0px 0px 2px #fff
+}
+.min-wi{
+    min-width: 200px;
+}
+
+.linkMenu:hover{
+    background-color: #290c5f;
+}
+
+.width-less{
+    width:70%
+}
+/* Inicio Media queries */
+
+@media screen and (max-width:768px){
+    .hideOnDesktop{
+        display: inline-block;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+    
+}
